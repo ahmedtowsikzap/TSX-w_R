@@ -9,12 +9,22 @@ let fees: number = [12,2,4,533,224,13,24];
 interface Person{
   name: string,
   job?:string,
-  age: number
+  employed: string | boolean
+  age: number,
+  location?: string | number
 }
 
 const person: Person = {
   name: "bill",
-  age:64
+  employed: true,
+  age:64,
+  location: "ghana"
+}
+const handleAddUser = (firstName:string, age: number, address: string):number => {
+  const total: number = 50;
+  console.log(firstName, age, address)
+  return total;
+
 }
 
 function App() {
