@@ -6,10 +6,14 @@ let isSmart: boolean = true;
 let students: string = ["lorem", "joe", "biden"];
 let fees: number = [12,2,4,533,224,13,24];
 
+interface Person{
+  name: string,
+  job?:string,
+  age: number
+}
 
-const person: {name:string, job:string, age:number} = {
+const person: Person = {
   name: "bill",
-  job: "jobless",
   age:64
 }
 
