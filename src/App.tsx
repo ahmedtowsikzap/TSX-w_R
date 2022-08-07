@@ -1,5 +1,6 @@
 import './App.css';
 import Counter from './components/Counter';
+import Users from './components/Users';
 // let student: string = "jeff";
 // let age : number = 69;
 // let isSmart: boolean = true;
@@ -32,6 +33,7 @@ function App() {
   return (
     <div className="App">
       <Counter/>
+      <Users/>
     </div>
   );
 }
