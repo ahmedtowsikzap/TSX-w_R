@@ -15,7 +15,7 @@ const Users = () => {
 
     const handleAddUser = (user: UserModel):void =>{
         const newTeam = {...team, user}
-        setTeam(newTeam)
+        setTeam(newTeam )
     }
   return (
     <div>
